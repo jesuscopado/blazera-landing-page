@@ -10,6 +10,7 @@ function Services() {
           node {
             title
             src
+            description
           }
         }
       }
@@ -22,7 +23,7 @@ function Services() {
           <h1 className="text-center my-5">Services We Offer </h1>
           <div className="row">
             {allServicesYaml.edges.map(({ node }) => {
-              return <ServiceItem title={node.title} src={node.src} />
+              return <ServiceItem title={node.title} src={node.src} description={node.description} />
             })}
           </div>
         </div>
