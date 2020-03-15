@@ -50,7 +50,7 @@ function LandingPage() {
               marginTop : "20px"
             }}
           >
-            Start a Project
+            Request a demo
           </button>
         </div>
       </div>

@@ -31,7 +31,7 @@ section {
 
 .inputBox{
   width: 100%;
-  background-color: #673AB7;
+  background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 10px;
   padding: 20px;
@@ -44,9 +44,9 @@ textarea:focus{
 }
 
 footer{
-  color: #B9A4DE
+  color: #FFCD6C
 }
 
 footer a {
-  color: white
+  color: orange
 }
