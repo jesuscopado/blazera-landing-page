@@ -36,7 +36,7 @@ section {
   border-radius: 10px;
   padding: 20px;
   text-decoration-color: white;
-  color: white
+  color: black;
 }
 
 textarea:focus{
@@ -44,9 +44,9 @@ textarea:focus{
 }
 
 footer{
-  color: #FFCD6C
+  color: black
 }
 
 footer a {
-  color: orange
+  color: black
 }
