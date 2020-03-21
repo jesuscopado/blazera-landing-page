@@ -7,7 +7,7 @@ export default function End() {
       className="container-fluid"
       style={{ backgroundColor: "#FFCD6C", color: "black" }}
     >
-      <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="contact" action="/" method="post" netlify-honeypot="bot-field" data-netlify="true">
       <div className="container">
         <div className="flexbox">
           <Fade left>
