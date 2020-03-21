@@ -11,7 +11,7 @@ export default function End() {
       <div className="container">
         <div className="flexbox">
           <Fade left>
-            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <h1 className="text-center my-5">Stay in touch</h1>
               <input type="hidden" name="bot-field" />
               <div className="row my-4">
