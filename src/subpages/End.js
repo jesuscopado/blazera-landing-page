@@ -5,7 +5,11 @@ export default function End() {
   return (
     <div id="contact"
       className="container-fluid"
-      style={{ backgroundColor: "#FFCD6C", color: "black" }}
+      style={{
+        backgroundColor: "#FFCD6C",
+        color: "black",
+        padding: "30px 0px 30px",
+      }}
     >
       <form name="contact" action="/" method="post" netlify-honeypot="bot-field" data-netlify="true">
       <div className="container">
@@ -32,7 +36,7 @@ export default function End() {
                   />
                 </div>
               </div>
-              <textarea name="message" rows="5" className="inputBox mb-4" placeholder="Your Message" />
+              <textarea name="message" rows="7" className="inputBox mb-4" placeholder="Your Message" />
               <button className="btn btn-light mb-4 py-3">
                 Submit
               </button>   
