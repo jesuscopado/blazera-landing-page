@@ -36,7 +36,7 @@ function LandingPage() {
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
           <h1>{landingText}</h1>
-          <a href="#contact" target="_parent">
+          <a href="https://www.figma.com/proto/ixECHJu5SKcFXZqUIYJhsK/blazera_Asa-draft?node-id=1:2&scaling=scale-downFigma" target="_blank">
             <button
               style={{
                 width: "200px",
